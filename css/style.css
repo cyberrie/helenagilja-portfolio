@@ -1,12 +1,25 @@
+:root {
+  --oyster-pink: rgb(236, 213, 207);
+  --puce: rgb(209, 143, 150);
+  --don-juan: rgb(72, 38, 48);
+}
+
 * {
   box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background: linear-gradient(90deg, var(--oyster-pink), var(--puce));
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
+  color: var(--don-juan);
 }
 
 h1,
@@ -18,6 +31,100 @@ h6 {
   margin: 0;
 }
 
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+}
+
 p {
   margin: 0;
 }
+
+/* header */
+
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  background: linear-gradient(90deg, var(--oyster-pink), var(--puce));
+  padding: 5px 0;
+  border-bottom: 5px solid var(--puce);
+}
+
+.navbar > ul {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2.2rem;
+  color: var(--don-juan);
+}
+
+a:hover {
+  background-image: linear-gradient(
+    transparent 40%,
+    var(--oyster-pink) 94%,
+    transparent 100%
+  );
+}
+
+/* hero banner */
+
+.hero-banner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+img {
+  height: 430px;
+  width: 400px;
+}
+
+.hero-banner h1 {
+  font-size: 6rem;
+}
+
+.hero-banner p {
+  font-size: 2rem;
+}
+
+/* @media screen and (min-width: 768px) {
+  .navbar {
+  }
+} */
