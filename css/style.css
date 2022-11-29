@@ -166,6 +166,7 @@ a:hover {
 }
 
 .workGrid {
+  margin-top: 32px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
@@ -193,7 +194,6 @@ a:hover {
   top: 16px;
   right: -1px;
   color: black;
-  z-index: 1;
 }
 
 .grid-image-container,
@@ -256,7 +256,7 @@ a:hover {
       "rotating-planets"
       "skyline"
       "nutrition-label"
-      "ferris-wheel"
+      "quiz"
       "balance-sheet";
     place-items: center;
   }
