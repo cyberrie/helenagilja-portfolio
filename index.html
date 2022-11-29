@@ -15,7 +15,7 @@
       <nav class="navbar">
         <ul>
           <li><a href="#">Who Am I?</a></li>
-          <li><a href="#">Work</a></li>
+          <li><a href="#work_section">Work</a></li>
           <li><a href="#">Contact</a></li>
           <li><a href="#">Buy Me A Donut</a></li>
         </ul>
@@ -25,11 +25,11 @@
     <!-- hero banner -->
 
     <section class="hero-banner">
-      <img src="./images/hel-headshot4.png" alt="" />
+      <img class='hero-image' src="./images/hel-headshot3.png" alt="" />
       <div class="hero-description">
         <h1>Hey, I am Helena</h1>
-        <p>A frontend developer in making</p>
-        <p>Let's Connect to Create</p>
+        <h3>A frontend developer in making</h3>
+        <h3>Let's Connect to Create</h3>
       </div>
     </section>
 
@@ -37,7 +37,7 @@
 
     <main class="page-wrapper">
       <!-- about me -->
-      <section class="page-section" id="about">
+      <section class="page-section">
         <h3>Who Am I?</h3>
         <div id="about-desc">
           <p>
@@ -61,31 +61,51 @@
       </section>
 
       <!-- portfolio container -->
-      <section class="page-section" id="work">
+      <section class="page-section">
         <h3>Work</h3>
-        <div id="about-desc">
+        <div id="about-desc" class="work" id="work_section">
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Repudiandae praesentium deserunt aut, maxime repellendus explicabo
             eveniet, alias cupiditate recusandae iusto temporibus! Tenetur
             deserunt neque labore a voluptas soluta, enim pariatur? Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Nisi aliquid quod,
-            architecto provident aspernatur sapiente adipisci blanditiis
-            incidunt
+            dolor sit amet consectetur
           </p>
-          <p>
-            velit, maxime nam impedit iure necessitatibus illo voluptatem quos
-            tempora natus Lorem ipsum dolor sit, amet consectetur adipisicing
-            elit. Maxime necessitatibus tenetur placeat assumenda, natus quidem
-            voluptatum eius aperiam at blanditiis dolores! Facere dolore
-            cupiditate necessitatibus, eveniet repellat quis perspiciatis
-            consectetur?
-          </p>
-        </div>
+       
+          <div class="workGrid">
+
+            <div class="workGridArea" id="rotating-planets">
+              <div class="heading">Rotating Planets</div>
+              <a target="_blank" style="margin-bottom: -9px" href="https://cyberrie.github.io/rotatingPlanets/"><img style="height: 228px; width: 100%; " src="./images/rotating-planets2.png" alt=""></a>
+            </div>
+       
+            <div class="workGridArea" id="skyline">
+              <div class="heading">Skyline</div>
+              <a target="_blank" style="margin-bottom: -9px" href="https://cyberrie.github.io/skyline/"><img style="height:228px; width: 100% " src="./images/skyline.png" alt=""></a>
+            </div>
+
+            <div class="workGridArea" id="nutrition-label">
+              <div class="heading">Nutrition Label</div>
+              <a target="_blank" style="margin-bottom: -9px" href="https://cyberrie.github.io/skyline/"><img style="height:228px; width: 100% " src="./images/skyline.png" alt=""></a>
+            </div>
+
+
+            <div class="workGridArea" id="balance-sheet">
+              <div class="heading">Balance Sheet</div>
+              <a target="_blank" style="margin-bottom: -9px" href="https://cyberrie.github.io/skyline/"><img style="height:228px; width: 100% " src="./images/skyline.png" alt=""></a>
+            </div>
+            <div class="workGridArea" id="ferris-wheel">
+              <div class="heading">Ferris Wheel</div>
+              <a target="_blank" style="margin-bottom: -9px" href="https://cyberrie.github.io/skyline/"><img style="height:228px; width: 100% " src="./images/skyline.png" alt=""></a>
+            </div>
+
+          </div>
+      
+          
       </section>
 
       <!-- contact -->
-      <section class="page-section" id="about">
+      <section class="page-section">
         <h3>Contact Me</h3>
         <div id="about-desc">
           <p>

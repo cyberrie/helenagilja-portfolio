@@ -3,6 +3,8 @@
   --puce: rgb(209, 143, 150);
   --pink-rgba: rgba(236, 213, 207, 0.39);
   --don-juan: rgb(72, 38, 48);
+  --cararra: rgb(229, 231, 223);
+  --cararra-rgba: rgba(229, 231, 223, 0.599);
 }
 
 * {
@@ -48,7 +50,8 @@ h4 {
   font-size: 2.5rem;
 }
 
-h5 {
+h5,
+.heading {
   font-size: 2rem;
 }
 
@@ -116,7 +119,7 @@ a:hover {
   gap: 10px;
 }
 
-img {
+.hero-image {
   height: 420px;
   width: 400px;
   border: 2px solid var(--pink-rgba);
@@ -156,12 +159,74 @@ img {
 #about-desc {
   display: flex;
   flex-direction: column;
+
   width: 84%;
   border-left: 5px solid var(--puce);
   padding-left: 32px;
 }
 
-/* @media screen and (min-width: 768px) {
-  .navbar {
+.workGrid {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  min-height: 400px;
+  width: 100%;
+  gap: 12px;
+
+  grid-template-areas:
+    "rotating-planets rotating-planets"
+    "skyline nutrition-label"
+    "balance-sheet ferris-wheel";
+}
+
+.workGridArea {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+  border: 5px solid var(--cararra);
+}
+
+.heading {
+  background-color: var(--cararra-rgba);
+  padding: 10px;
+  height: 50px;
+  position: absolute;
+  top: 16px;
+  right: -1px;
+  color: black;
+}
+
+#rotating-planets {
+  grid-area: rotating-planets;
+}
+
+#skyline {
+  grid-area: skyline;
+}
+
+#nutrition-label {
+  grid-area: nutrition-label;
+}
+
+#balance-sheet {
+  grid-area: balance-sheet;
+}
+
+#ferris-wheel {
+  grid-area: ferris-wheel;
+}
+
+/* @media screen and (max-width: 780px) {
+  .workGrid {
+    grid-template-columns: repeat(2, 1fr);
+  } */
+
+@media screen and (max-width: 768px) {
+  .workGrid {
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
   }
-} */
+}
