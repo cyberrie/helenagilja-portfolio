@@ -1,6 +1,7 @@
 :root {
   --oyster-pink: rgb(236, 213, 207);
   --puce: rgb(209, 143, 150);
+  --pink-rgba: rgba(236, 213, 207, 0.39);
   --don-juan: rgb(72, 38, 48);
 }
 
@@ -57,6 +58,7 @@ h6 {
 
 p {
   margin: 0;
+  font-size: 1.5rem;
 }
 
 /* header */
@@ -70,6 +72,7 @@ p {
   background: linear-gradient(90deg, var(--oyster-pink), var(--puce));
   padding: 5px 0;
   border-bottom: 5px solid var(--puce);
+  margin-bottom: 64px;
 }
 
 .navbar > ul {
@@ -101,6 +104,8 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
 }
 
 .hero-description {
@@ -112,8 +117,11 @@ a:hover {
 }
 
 img {
-  height: 430px;
+  height: 420px;
   width: 400px;
+  border: 2px solid var(--pink-rgba);
+  border-radius: 50%;
+  background-color: var(--pink-rgba);
 }
 
 .hero-banner h1 {
@@ -122,6 +130,35 @@ img {
 
 .hero-banner p {
   font-size: 2rem;
+}
+
+.break-med {
+  width: 100%;
+  height: 64px;
+}
+
+/* main */
+
+.page-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.page-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 32px;
+}
+
+#about-desc {
+  display: flex;
+  flex-direction: column;
+  width: 84%;
+  border-left: 5px solid var(--puce);
+  padding-left: 32px;
 }
 
 /* @media screen and (min-width: 768px) {
