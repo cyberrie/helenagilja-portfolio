@@ -172,7 +172,7 @@ a:hover {
   grid-template-areas:
     "rotating-planets rotating-planets"
     "skyline nutrition-label"
-    "ferris-wheel balance-sheet ";
+    "quiz balance-sheet ";
 }
 
 .workGridArea {
@@ -193,6 +193,13 @@ a:hover {
   top: 16px;
   right: -1px;
   color: black;
+  z-index: 1;
+}
+
+.grid-image-container,
+.grid-image-container img {
+  height: 228px;
+  width: 100%;
 }
 
 #rotating-planets {
@@ -211,14 +218,36 @@ a:hover {
   grid-area: balance-sheet;
 }
 
-#ferris-wheel {
-  grid-area: ferris-wheel;
+#quiz {
+  grid-area: quiz;
 }
 
 /* @media screen and (max-width: 780px) {
   .workGrid {
     grid-template-columns: repeat(2, 1fr);
   } */
+
+.grid-image-container {
+  position: relative;
+}
+
+.grid-image-container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: var(--pink-rgba);
+  cursor: pointer;
+}
 
 @media screen and (max-width: 768px) {
   .workGrid {
