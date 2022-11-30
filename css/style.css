@@ -4,11 +4,12 @@
   --pink-rgba: rgba(236, 213, 207, 0.39);
   --don-juan: rgb(72, 38, 48);
   --cararra: rgb(229, 231, 223);
-  --cararra-rgba: rgba(229, 231, 223, 0.599);
+  --cararra-rgba: rgba(229, 231, 223, 0.491);
 }
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -42,7 +43,8 @@ h2 {
   font-size: 3.5rem;
 }
 
-h3 {
+h3,
+.connect-btn {
   font-size: 3rem;
 }
 
@@ -140,6 +142,11 @@ a:hover {
   height: 64px;
 }
 
+.connect-btn {
+  padding: 8px;
+  font-size: 24px;
+  background-color: var(--pink-rgba);
+}
 /* main */
 
 .page-wrapper {
@@ -173,16 +180,10 @@ a:hover {
   grid-template-areas:
     "rotating-planets rotating-planets"
     "skyline nutrition-label"
-    "quiz balance-sheet ";
+    "quiz piano ";
 }
 
 .workGridArea {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  align-items: center;
-  display: flex;
-  position: relative;
   border: 5px solid var(--cararra);
 }
 
@@ -257,7 +258,7 @@ a:hover {
       "skyline"
       "nutrition-label"
       "quiz"
-      "balance-sheet";
+      "piano";
     place-items: center;
   }
 }
