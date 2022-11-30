@@ -6,30 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Helena Dev</title>
     <link rel="stylesheet" href="./css/style.css" />
+  
+    <script src="https://kit.fontawesome.com/c4b9748cd2.js" crossorigin="anonymous"></script>
+ 
   </head>
 
   <body>
-    <!-- main logo / nav -->
-
-    <header class="headerContainer">
+      <!-- nav -->
+      <header class="headerContainer">
       <nav class="navbar">
         <ul>
           <li><a href="#">Who Am I?</a></li>
-          <li><a href="#work_section">Work</a></li>
+          <li><a href="#">Work</a></li>
           <li><a href="#">Contact</a></li>
           <li><a href="#">Buy Me A Donut</a></li>
         </ul>
       </nav>
     </header>
-
+    <div class="break-med"></div>
     <!-- hero banner -->
 
     <section class="hero-banner">
       <img class='hero-image' src="./images/hel-headshot3.png" alt="" />
       <div class="hero-description">
         <h1>Hey, I am Helena</h1>
-        <h3>A frontend developer in making</h3>
-        <h3>Let's <a rel='noopener noreferrer'class="connect-btn"target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSfg4G5cqZBVgmJeG_7NEiBWRZE3pN3qUZ0XTKrFc72O00x0pw/viewform?vc=0&c=0&w=1&flr=0">CONNECT</a> to Create</h3>
+        <h4>A frontend developer in making</h4>
+        <h4>Let's <a rel='noopener noreferrer'class="connect-btn"target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSfg4G5cqZBVgmJeG_7NEiBWRZE3pN3qUZ0XTKrFc72O00x0pw/viewform?vc=0&c=0&w=1&flr=0">CONNECT</a> to Create</h4>
      
       </div>
     </section>
@@ -50,25 +52,22 @@
             architecto provident aspernatur sapiente adipisci blanditiis
             incidunt
           </p>
-          <p>
-            velit, maxime nam impedit iure necessitatibus illo voluptatem quos
-            tempora natus Lorem ipsum dolor sit, amet consectetur adipisicing
-            elit. Maxime necessitatibus tenetur placeat assumenda, natus quidem
-            voluptatum eius aperiam at blanditiis dolores! Facere dolore
-            cupiditate necessitatibus, eveniet repellat quis perspiciatis
-            consectetur?
-          </p>
-        </div>
+        
+        </div class="main-wrap">
       </section>
 
+    
       <!-- portfolio container -->
       <section class="page-section">
         <h3>Work</h3>
         <div id="about-desc" class="work" id="work_section">
           <p>
-            Below, you will be able to see few of my web applications I have created while learning HTML and CSS through freeCodeCamp, Udemy and YouTube channels. Enjoy! 
+            Have a sneak peek into some applications I have built while learning HTML and CSS through freeCodeCamp, Udemy and YouTube channels, along my Bootcam lessons. Enjoy! 
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis neque ipsa vero, deserunt optio, esse velit, cumque voluptates animi fuga atque dolorem quo minima maiores aperiam sequi a eveniet corporis.
           </p>
-       
+
+       <div>
+
           <div class="workGrid">
 
             <div class="workGridArea" id="rotating-planets">
@@ -78,13 +77,13 @@
               <div class="overlay"></div>
             </div>
           </a>
-          </div>
+          </div class="grid-flex">
        
             <div class="workGridArea" id="skyline">
               <div class="grid-image-container">
               <div class="heading">Skyline</div>
              
-              <a target="_blank" style="margin-bottom: -9px" href="https://cyberrie.github.io/skyline/"><img  src="./images/skyline.png" alt="Skyline application snapshot (night mode)">
+              <a target="_blank"  href="https://cyberrie.github.io/skyline/"><img  src="./images/skyline.png" alt="Skyline application snapshot (night mode)">
               <div class="overlay"></div>
             </a>
             </div>
@@ -94,18 +93,17 @@
               <div class="grid-image-container">
               <div class="heading">Nutrition Label</div>
           
-              <a target="_blank" href="https://cyberrie.github.io/nutrition-label/" style="margin-bottom: -9px" ><img src="./images/nutrition-label5.png" alt="Nutrition Label application snapshot"></a> 
+              <a target="_blank" href="https://cyberrie.github.io/nutrition-label/"  ><img src="./images/nutrition-label5.png" alt="Nutrition Label application snapshot">
               <div class="overlay"></div>
             </a>
           </div>
-            </div>
-      
+        </div>
 
             <div class="workGridArea" id="quiz">
               <div class="grid-image-container">
               <div class="heading">Quiz</div>
            
-              <a target="_blank" style="margin-bottom: -9px" href="https://cyberrie.github.io/quiz/"><img  src="./images/quiz.png" alt="Quiz application snapshot">
+              <a target="_blank"  href="https://cyberrie.github.io/quiz/"><img  src="./images/quiz.png" alt="Quiz application snapshot">
               <div class="overlay"></div>
             </a>
             </div>
@@ -115,7 +113,7 @@
               <div class="grid-image-container">
               <div class="heading">Piano</div>
             
-              <a target="_blank" style="margin-bottom: -9px" href="https://cyberrie.github.io/piano/"><img  src="./images/piano.png" alt="Piano application snapshot"></a> 
+              <a target="_blank" href="https://cyberrie.github.io/piano/"><img  src="./images/piano.png" alt="Piano application snapshot">
               <div class="overlay"></div>
             </a></div>
             </div>
@@ -123,32 +121,33 @@
 
           </div>
       
-          
+        </div>
       </section>
 
+ 
       <!-- contact -->
       <section class="page-section">
         <h3>Contact Me</h3>
-        <div id="about-desc">
+        <div id="about-desc" class="contact">
+     
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Repudiandae praesentium deserunt aut, maxime repellendus explicabo
-            eveniet, alias cupiditate recusandae iusto temporibus! Tenetur
-            deserunt neque labore a voluptas soluta, enim pariatur? Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Nisi aliquid quod,
-            architecto provident aspernatur sapiente adipisci blanditiis
-            incidunt
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corporis autem magnam, sed ducimus nobis iste maxime dolorum laborum nemo ex harum tempora eveniet ut veniam minima? Dolorem, quae fuga.
           </p>
-          <p>
-            velit, maxime nam impedit iure necessitatibus illo voluptatem quos
-            tempora natus Lorem ipsum dolor sit, amet consectetur adipisicing
-            elit. Maxime necessitatibus tenetur placeat assumenda, natus quidem
-            voluptatum eius aperiam at blanditiis dolores! Facere dolore
-            cupiditate necessitatibus, eveniet repellat quis perspiciatis
-            consectetur?
-          </p>
+
+       
+          <div class="contact-flex">
+            <a rel='noopener noreferrer'class="connect-btn"target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSfg4G5cqZBVgmJeG_7NEiBWRZE3pN3qUZ0XTKrFc72O00x0pw/viewform?vc=0&c=0&w=1&flr=0">CONNECT</a>
+           <h5>or drop me an email at <a rel='noopener noreferrer' target='_blank' href="mailto:helena.gilje@gmail.com">helena.gilja@gmail.com</a></h5>
+
+           <div class="icons">
+          <i class="fa-brands fa-github"></i>
+           </div>
+          </div>
         </div>
+     
+
       </section>
+
     </main>
   </body>
 </html>
