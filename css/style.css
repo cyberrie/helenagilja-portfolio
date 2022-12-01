@@ -10,6 +10,8 @@
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -18,20 +20,11 @@ html {
 
 body {
   background: linear-gradient(90deg, var(--oyster-pink), var(--puce));
-  margin: 0;
-  padding: 0;
+
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
   color: var(--don-juan);
-}
-
-h1,
-h2,
-h3,
-h5,
-h6 {
-  margin: 0 auto;
 }
 
 h1 {
@@ -120,17 +113,17 @@ a:hover {
   gap: 64px;
 }
 
-.hero-banner h4 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 .hero-description {
   display: flex;
   flex-direction: column;
   align-content: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 16px;
+}
+
+.hero-description h3 {
+  align-self: flex-start;
+  margin: 0;
 }
 
 .hero-image {
@@ -167,9 +160,9 @@ a:hover {
   align-items: flex-start;
 }
 
-.who-section,
-.work-section,
-.contact-section {
+.about-me,
+.work,
+.contact {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -177,9 +170,9 @@ a:hover {
   width: 100%;
 }
 
-.who-desc,
-.work-desc,
-.contact-desc {
+.about-content,
+.work-content,
+.contact-content {
   display: flex;
   flex-direction: column;
   width: 85%;
