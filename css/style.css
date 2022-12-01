@@ -63,6 +63,14 @@ p {
   margin: 0;
   font-size: 2rem;
 }
+
+.page-wrap {
+  padding: 64px 8px 0px;
+  margin: 0px auto;
+  max-width: 1680px;
+  width: 100%;
+  min-height: 100vh;
+}
 /* header */
 
 .headerContainer {
@@ -73,8 +81,7 @@ p {
   flex-wrap: wrap;
   background: linear-gradient(90deg, var(--oyster-pink), var(--puce));
   padding: 2.5px 0;
-  border-bottom: 5px solid var(--puce);
-  margin-bottom: 64px;
+  /* border-bottom: 5px solid var(--puce); */
 }
 
 .navbar {
@@ -154,9 +161,6 @@ a:hover {
 /* main */
 
 .main-wrap {
-  max-width: 50%;
-}
-.page-wrapper {
   padding-top: 2px;
   width: 100%;
   display: flex;
