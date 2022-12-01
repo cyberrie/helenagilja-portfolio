@@ -193,7 +193,6 @@ a:hover {
   flex: 0 0 150px;
 }
 .workGrid {
-  margin-top: 32px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 200px 200px 200px;
@@ -297,7 +296,7 @@ footer {
 
 /* @media */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 778px) {
   .workGrid {
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -308,14 +307,33 @@ footer {
       "piano";
     place-items: center;
   }
+}
 
+@media screen and (max-width: 578px) {
   .donut {
     display: none;
   }
-}
 
-@media screen and (max-width: 560px) {
-  .donut {
-    display: none;
+  .hero-banner h1 {
+    font-size: 5rem;
+  }
+
+  h4 {
+    font-size: 2.5rem;
+  }
+
+  .connect-btn {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  #work-header,
+  #contact-header,
+  #about-header {
+    font-size: 2.5rem;
+    flex: 0 0 100px;
   }
 }
