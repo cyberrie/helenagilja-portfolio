@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Helena Dev</title>
+    <meta name='description' content="Personal Portfolio Website">
+    <title>Helena - Web Developer</title>
     <link rel="stylesheet" href="./css/style.css" />
-  
     <script src="https://kit.fontawesome.com/c4b9748cd2.js" crossorigin="anonymous"></script>
- 
   </head>
 
   <body>
@@ -25,27 +24,28 @@
         </ul>
       </nav>
     </header>
+
+    <div class="break-med"></div>
   
     <!-- hero banner -->
-  
-    <div class="page-wrap">
+
+
     <section class="hero-banner">
       <img class='hero-image' src="./images/hel-headshot3.png" alt="" />
       <div class="hero-description">
         <h1>Hey, I am Helena</h1>
-        <h4>A frontend developer in making</h4>
-        <h4>Let's <a rel='noopener noreferrer'class="connect-btn"target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSfg4G5cqZBVgmJeG_7NEiBWRZE3pN3qUZ0XTKrFc72O00x0pw/viewform?vc=0&c=0&w=1&flr=0">Connect</a> to Create</h4>
-     
+        <h3>A frontend developer in making</h3>
+        <h3>Let's <a rel='noopener noreferrer'class="connect-btn"target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSfg4G5cqZBVgmJeG_7NEiBWRZE3pN3qUZ0XTKrFc72O00x0pw/viewform?vc=0&c=0&w=1&flr=0">Connect</a> to Create</h3>
       </div>
     </section>
 
     <div class="break-med"></div>
 
-    <main class="main-wrap">
+    <main>
       <!-- about me -->
-      <section class="who-section" id="about">
+      <section class="about-me" id="about-me">
         <h3 id="about-header">About</h3>
-        <div class="who-desc">
+        <article class="about-content">
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Repudiandae praesentium deserunt aut, maxime repellendus explicabo
@@ -55,20 +55,19 @@
             architecto provident aspernatur sapiente adipisci blanditiis
             incidunt
           </p>
-        
-        </div class="main-wrap">
+          </article>
       </section>
 
     
       <!-- portfolio container -->
-      <section class="work-section">
+      <section class="work">
         <h3 id="work-header">Work</h3>
-        <div class="work-desc">
+        <div class="work-content">
           <div class="workGrid">
             <div class="workGridArea" id="rotating-planets">
               <div class="grid-image-container">
-              <div class="heading">Rotating Planets</div>
-              <a class='grid-link' target="_blank"  style="margin-bottom: -9px" href="https://cyberrie.github.io/rotatingPlanets/">    <img src="./images/rotating-planets2.png" alt="Rotating Planets application snapshot"> 
+              <h4 class="heading">Rotating Planets</h4>
+              <a href="https://cyberrie.github.io/rotatingPlanets/" aria-label="Rotating Planets application page" class='grid-link' target="_blank"  style="margin-bottom: -9px" > <img src="./images/rotating-planets3.webp" alt="Rotating Planets application snapshot"> 
               <div class="overlay"></div>
             </div>
           </a>
@@ -76,9 +75,9 @@
        
             <div class="workGridArea" id="skyline">
               <div class="grid-image-container">
-              <div class="heading">Skyline</div>
+              <h4 class="heading">Skyline</h4>
              
-              <a target="_blank"  href="https://cyberrie.github.io/skyline/"><img  src="./images/skyline.png" alt="Skyline application snapshot (night mode)">
+              <a href="https://cyberrie.github.io/skyline/" aria-label="Skyline application page" target="_blank"  ><img  src="./images/skyline.png" alt="Skyline application snapshot (night mode)">
               <div class="overlay"></div>
             </a>
             </div>
@@ -86,9 +85,9 @@
 
             <div class="workGridArea" id="nutrition-label">
               <div class="grid-image-container">
-              <div class="heading">Nutrition Label</div>
+              <h4 class="heading">Nutrition Label</h4>
           
-              <a target="_blank" href="https://cyberrie.github.io/nutrition-label/"  ><img src="./images/nutrition-label5.png" alt="Nutrition Label application snapshot">
+              <a href="https://cyberrie.github.io/nutrition-label/" aria-label="Nutrition Label application page" target="_blank"   ><img src="./images/nutrition-label5.png" alt="Nutrition Label application snapshot">
               <div class="overlay"></div>
             </a>
           </div>
@@ -96,9 +95,9 @@
 
             <div class="workGridArea" id="quiz">
               <div class="grid-image-container">
-              <div class="heading">Quiz</div>
+              <h4 class="heading">Quiz</h4>
            
-              <a target="_blank"  href="https://cyberrie.github.io/quiz/"><img  src="./images/quiz.png" alt="Quiz application snapshot">
+              <a  href="https://cyberrie.github.io/quiz/" aria-label="Quiz application page" target="_blank" ><img  src="./images/quiz.png" alt="Quiz application snapshot">
               <div class="overlay"></div>
             </a>
             </div>
@@ -106,39 +105,35 @@
             
             <div class="workGridArea" id="piano">
               <div class="grid-image-container">
-              <div class="heading">Piano</div>
+              <h4 class="heading">Piano</h4>
             
-              <a target="_blank" href="https://cyberrie.github.io/piano/"><img  src="./images/piano.png" alt="Piano application snapshot">
+              <a href="https://cyberrie.github.io/piano/" aria-label="Piano application page" target="_blank" ><img  src="./images/piano.png" alt="Piano application snapshot">
               <div class="overlay"></div>
             </a></div>
             </div>
           </div>
         </div>
-    
       </section>
 
  
       <!-- contact -->
-      <section class="contact-section">
+      <section class="contact">
         <h3 id="contact-header">Contact</h3>
-        <div class="contact-desc" class="contact">
-     
+        <div class="contact-content">
           <div class="contact-flex">
             <a rel='noopener noreferrer'class="connect-btn"target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSfg4G5cqZBVgmJeG_7NEiBWRZE3pN3qUZ0XTKrFc72O00x0pw/viewform?vc=0&c=0&w=1&flr=0">Connect</a>
-           <h5>or drop me an email at <a rel='noopener noreferrer' target='_blank' href="mailto:helena.gilje@gmail.com">helena.gilja@gmail.com</a></h5>
+           <h4>or drop me an email at <a rel='noopener noreferrer' target='_blank' href="mailto:helena.gilje@gmail.com">helena.gilja@gmail.com</a></h4>
 
-           <div class="icons">
-         
+           <article class="icons">
           <i class="fa-solid fa-phone"></i>
           <i class="fa-brands fa-linkedin-in"></i>
           <i class="fa-brands fa-github"></i>
-       
-           </div>
-          </div>
-        </div>
+           </article>
+          <!-- </div>
+        </div> -->
     
       </section>
-    </div>
+    <!-- </div> -->
 
     </main>
     <footer></footer>
