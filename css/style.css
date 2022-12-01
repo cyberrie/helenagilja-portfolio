@@ -174,7 +174,7 @@ a:hover {
   align-items: flex-start;
   justify-content: space-between;
   padding: 32px;
-  width: -webkit-fill-available;
+  width: 100%;
 }
 
 .who-desc,
