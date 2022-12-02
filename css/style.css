@@ -53,13 +53,6 @@ p {
   font-size: 2rem;
 }
 
-.page-wrap {
-  padding: 64px 8px 0px;
-  margin: 0px auto;
-  max-width: 1778px;
-  width: 100%;
-  min-height: 100vh;
-}
 /* header */
 
 .headerContainer {
@@ -117,7 +110,7 @@ a:hover {
   gap: 16px;
 }
 
-.hero-description > h3 {
+.hero-description > h2 {
   font-size: 3rem;
   align-self: flex-start;
   margin: 0;
@@ -164,7 +157,7 @@ a:hover {
   align-items: flex-start;
   justify-content: space-between;
   padding: 32px;
-  width: 95%;
+  width: 96%;
 }
 
 .about-content,
