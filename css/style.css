@@ -20,7 +20,6 @@ html {
 
 body {
   background: linear-gradient(90deg, var(--oyster-pink), var(--puce));
-
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
@@ -78,6 +77,7 @@ a {
   text-decoration: none;
   font-size: 2.2rem;
   color: var(--don-juan);
+  font-weight: 500;
 }
 
 a:hover {
@@ -111,6 +111,7 @@ a:hover {
   font-size: 3rem;
   align-self: flex-start;
   margin: 0;
+  font-weight: 500;
 }
 
 .hero-image {
@@ -135,7 +136,7 @@ a:hover {
   border-radius: 50%;
   background-color: var(--pink-rgba);
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 /* MAIN - about me, work portfolio & contact me */
@@ -166,6 +167,7 @@ a:hover {
   flex: 0 0 160px;
   text-align: center;
   font-size: 3rem;
+  font-weight: 500;
 }
 
 .workGrid {
