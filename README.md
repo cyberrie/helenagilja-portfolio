@@ -45,6 +45,56 @@ Or, click on this link: [Helena's Portfolio Page]()
 
 I have started working on my portfolio page last week, so slightly ahead of the schedule.
 
-I have used pen and paper to sketch my initial layout. After this week, I have learned
+I have used pen and paper to sketch my initial layout.
 
-For my main layout, I have decided to use Flexbox and Grid nested within portfolio section of my page. I now understand this can be built using grid layout fully, howvever as I am almost done will leave it.
+For my main layout, I have decided to use flexbox and grid nested within portfolio section of my page. I now understand this can be built using grid layout fully, but I felt flexbox was more suitable for my desired design.
+
+## Built with...
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Desktop-first workflow
+
+## What I learned
+
+With this particular challenge, I have used flexbox nested within another flexbox container in my contact section.
+
+I was struggling to work out on how to make a nested flexbox take the full width in a flex item which was its container.
+
+In the end, I realised I have used width property on a wrong element, nested flex as opposed to outer flex container.
+
+```css
+.outer-flex-container {
+  width: 100%;
+}
+```
+
+## Continued development
+
+I will continue working on enhancing my skills in CSS grid and start using it more often in my application as it needs less code.
+
+I will aim to build future applications with mobile-first approach as data suggests this is more preferred way as more websites are now looked up on mobile devices and it is easier to build on simpler layouts rather than working backwards from omplex layouts.
+
+## Useful Resources
+
+- [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp) - This was a nice refresher I kept open during the initial stages to ensure I apply these in my project.
+
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This is an amazing article which helped me finally understand flexbox. The good thing is that you can try it out yourself on the side.
+
+- [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - Have a look here if ou would like ot grasp the concpt of CSS grid quickly!
+
+## Author
+
+Helena Gilja
+
+- Website - [Helena's Portfolio](https://www.your-site.com)
+
+- GitHub - [cyberrie](hhttps://github.com/cyberrie)
+
+## Acknowledgments
+
+I would like to thank my Instructor Dane for this week's sessions and explaining flexbox and grid concepts really well.
+
+Special thanks to TAs Scott, Noah & Asha who helped me resolve some of the chllenges during this project.

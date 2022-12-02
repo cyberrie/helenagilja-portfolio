@@ -16,6 +16,7 @@
 
 html {
   font-size: 62.5%;
+  background-color: var(--puce);
 }
 
 body {
@@ -157,7 +158,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   width: 85%;
-  border-left: 5px solid var(--puce);
+  border-left: 10px solid var(--puce);
   padding-left: 32px;
 }
 
@@ -183,7 +184,8 @@ a:hover {
 }
 
 .workGridArea {
-  border: 5px solid var(--cararra);
+  border: 10px solid var(--cararra);
+  border-radius: 10px;
 }
 
 .heading {
