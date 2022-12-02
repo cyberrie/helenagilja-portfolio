@@ -12,13 +12,13 @@
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-## 1️⃣ Overview
+## Overview
 
 This challenge was completed to consolidate this week's learnings (flexbox, CSS grid, media queries, and CSS variables) and create my portfolio page to showcase my skills and talents to potential employers.
 
 I will build on this as I progress through my bootcamp course.
 
-## 2️⃣ The Challenge
+## The Challenge
 
 I was given some critical requirements neccessary to develop a portfolio that satisfies a typical hiring manager’s needs:
 
@@ -29,19 +29,19 @@ I was given some critical requirements neccessary to develop a portfolio that sa
 - When images of the applications are clicked then the user is taken to that deployed application
 - When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
 
-## 3️⃣ Portfolio Demo
+## Portfolio Demo
 
 The following animation shows my portoflio page appearance:
 
 ![portfolio demo](./images/portfolio-demo1.gif)
 
-## 4️⃣ Links
+## Links
 
 You will be able to see my portfolio page URL if you navigate into Settings → Pages inside this repository. Enjoy!
 
 Or, click on this link: [Helena's Portfolio Page]()
 
-## 5️⃣ My Process
+## My Process
 
 I have started working on my portfolio page last week, so slightly ahead of the schedule.
 
@@ -49,7 +49,7 @@ I have used pen and paper to sketch my initial layout.
 
 For my main layout, I have decided to use flexbox and grid nested within portfolio section of my page. I now understand this can be built using grid layout fully, but I felt flexbox was more suitable for my desired design.
 
-## 6️⃣ Built with...
+## Built with...
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -57,7 +57,7 @@ For my main layout, I have decided to use flexbox and grid nested within portfol
 - CSS Grid
 - Desktop-first workflow
 
-## 7️⃣ What I learned
+## What I learned
 
 With this particular challenge, I have used flexbox nested within another flexbox container in my contact section.
 
@@ -71,13 +71,13 @@ In the end, I realised I have used width property on a wrong element, nested fle
 }
 ```
 
-## 8️⃣ Continued development
+## Continued development
 
 I will continue working on enhancing my skills in CSS grid and start using it more often in my application as it needs less code.
 
 I will aim to build future applications with mobile-first approach as data suggests this is more preferred way as more websites are now looked up on mobile devices and it is easier to build on simpler layouts rather than working backwards from omplex layouts.
 
-## 9️⃣ Useful Resources
+## Useful Resources
 
 - [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp) - This was a nice refresher I kept open during the initial stages to ensure I apply these in my project.
 
@@ -93,8 +93,8 @@ Helena Gilja ©️
 
 - GitHub - [cyberrie](hhttps://github.com/cyberrie)
 
-## 🌟 Acknowledgments 🌟
+## Acknowledgments
 
-I would like to thank my Instructor Dane for this week's sessions and explaining flexbox and grid concepts really well.
+🌟 I would like to thank my Instructor Dane for this week's sessions and explaining flexbox and grid concepts really well.
 
-Special thanks to TAs Scott, Noah & Asha who helped me resolve some of the chllenges during this project.
+🌟 Special thanks to TAs Scott, Noah & Asha who helped me resolve some of the chllenges during this project.
