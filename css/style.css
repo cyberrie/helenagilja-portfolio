@@ -44,16 +44,13 @@ h5,
   font-size: 2rem;
 }
 
-h6 {
-  font-size: 1.5rem;
-}
-
 p {
   margin: 0;
   font-size: 2rem;
+  margin-bottom: 10px;
 }
 
-/* header */
+/* HEADER */
 
 .headerContainer {
   display: flex;
@@ -91,7 +88,7 @@ a:hover {
   );
 }
 
-/* hero banner */
+/* HERO */
 
 .hero-banner {
   width: 100%;
@@ -140,15 +137,8 @@ a:hover {
   font-size: 3rem;
   font-weight: bold;
 }
-/* main */
 
-.main-wrap {
-  padding-top: 2px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
+/* MAIN - about me, work portfolio & contact me */
 
 .about-me,
 .work,
@@ -177,6 +167,7 @@ a:hover {
   text-align: center;
   font-size: 3rem;
 }
+
 .workGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -257,8 +248,6 @@ a:hover {
   cursor: pointer;
 }
 
-/* contact */
-
 .contact-flex {
   display: flex;
   margin: 0 auto;
@@ -275,15 +264,17 @@ a:hover {
 }
 
 i {
-  font-size: 2.6rem;
+  font-size: 3rem;
   cursor: pointer;
 }
+
+/* FOOTER */
 
 footer {
   width: 100%;
   padding: 2.5px 0;
   background: linear-gradient(180deg, var(--oyster-pink), var(--puce));
-  height: 78px;
+  height: 58px;
 }
 
 /* @media */
