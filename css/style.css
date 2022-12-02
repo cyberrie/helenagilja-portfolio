@@ -35,10 +35,6 @@ h2 {
   font-size: 3.5rem;
 }
 
-h3 {
-  font-size: 3rem;
-}
-
 h4 {
   font-size: 2rem;
 }
@@ -121,7 +117,8 @@ a:hover {
   gap: 16px;
 }
 
-.hero-description h3 {
+.hero-description > h3 {
+  font-size: 3rem;
   align-self: flex-start;
   margin: 0;
 }
@@ -167,7 +164,7 @@ a:hover {
   align-items: flex-start;
   justify-content: space-between;
   padding: 32px;
-  width: 100%;
+  width: 95%;
 }
 
 .about-content,
@@ -183,14 +180,17 @@ a:hover {
 #work-header,
 #contact-header,
 #about-header {
-  flex: 0 0 150px;
+  flex: 0 0 160px;
+  text-align: center;
+  font-size: 3rem;
 }
 .workGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px 200px;
   gap: 12px;
   grid-template-areas:
+    "rotating-planets rotating-planets"
     "rotating-planets rotating-planets"
     "skyline nutrition-label"
     "quiz piano ";
@@ -214,6 +214,11 @@ a:hover {
 .grid-image-container img {
   height: 190px;
   width: 100%;
+}
+
+.planets--container,
+.planets--container img {
+  height: 402px;
 }
 
 #rotating-planets {
@@ -244,7 +249,8 @@ a:hover {
   opacity: 1;
 }
 
-.overlay {
+.overlay,
+.overlay--planets {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -292,6 +298,7 @@ footer {
 @media screen and (max-width: 778px) {
   .workGrid {
     grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 200px);
     grid-template-areas:
       "rotating-planets"
       "skyline"
@@ -300,19 +307,19 @@ footer {
       "piano";
     place-items: center;
   }
+  .planets--container,
+  .planets--container img {
+    height: 190px;
+  }
 }
 
-@media screen and (max-width: 578px) {
+@media screen and (max-width: 660px) {
   .donut {
     display: none;
   }
 
-  .hero-banner h1 {
+  .hero-banner > h1 {
     font-size: 5rem;
-  }
-
-  h4 {
-    font-size: 2.5rem;
   }
 
   .connect-btn {
@@ -326,7 +333,40 @@ footer {
   #work-header,
   #contact-header,
   #about-header {
-    font-size: 2.5rem;
-    flex: 0 0 100px;
+    font-size: 2rem;
+    flex: 0 0 120px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .headerContainer {
+    height: 55px;
+  }
+
+  .hero-banner h1 {
+    font-size: 4rem;
+  }
+
+  .hero-description > h3 {
+    font-size: 2rem;
+  }
+
+  .hero-image {
+    height: 300px;
+    width: 290px;
+  }
+
+  .connect-btn {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  #work-header,
+  #contact-header,
+  #about-header {
+    font-size: 2rem;
   }
 }
