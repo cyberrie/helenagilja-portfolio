@@ -456,4 +456,14 @@ footer > p {
   .contact-flex {
     gap: 5px;
   }
+
+  footer {
+    height: 50px;
+  }
+
+  footer > p {
+    font-size: 1rem;
+    padding-top: 10px;
+    margin-left: 5px;
+  }
 }
