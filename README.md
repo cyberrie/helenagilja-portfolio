@@ -87,14 +87,14 @@ I will aim to build future applications with mobile-first approach as data sugge
 
 ## Author
 
-Helena Gilja ©️
+©️ Helena Gilja
 
 - Website - [Helena's Portfolio](https://www.your-site.com)
 
-- GitHub - [cyberrie](hhttps://github.com/cyberrie)
+- GitHub - [cyberrie](https://github.com/cyberrie)
 
 ## Acknowledgments
 
-🌟 I would like to thank my Instructor Dane for this week's sessions and explaining flexbox and grid concepts really well.
+🌟 I would like to thank our bootcamp instructor Dane for this week's sessions and explaining flexbox and grid concepts really well.
 
-🌟 Special thanks to TAs Scott, Noah & Asha who helped me resolve some of the chllenges during this project.
+🌟 Special thanks to TAs Scott, Noah & Asha who helped me resolve some of the challenges during this project.

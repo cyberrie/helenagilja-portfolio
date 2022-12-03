@@ -148,7 +148,7 @@ a:hover {
   font-weight: 400;
 }
 
-/* MAIN - about me, work portfolio & contact me */
+/* MAIN - about me, portfolio & contact */
 
 .about-me,
 .work,
@@ -183,7 +183,7 @@ a:hover {
 .workGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 200px 200px 200px 200px;
+  grid-template-rows: repeat(4, 200px);
   gap: 12px;
   grid-template-areas:
     "rotating-planets rotating-planets"
@@ -302,6 +302,13 @@ footer {
   height: 58px;
 }
 
+footer > p {
+  font-size: 1.5rem;
+  padding-top: 15px;
+  margin-left: 10px;
+  text-align: left;
+}
+
 /* @media tablets */
 
 @media screen and (max-width: 778px) {
@@ -316,6 +323,7 @@ footer {
       "piano";
     place-items: center;
   }
+
   .planets--container,
   .planets--container img {
     height: 190px;
@@ -327,11 +335,16 @@ footer {
     display: none;
   }
 
-  .hero-banner > h1 {
+  .hero-banner h1 {
     font-size: 5rem;
   }
 
-  .connect-btn {
+  .hero-description {
+    gap: 10px;
+  }
+
+  .connect-btn,
+  .hero-description > h2 {
     font-size: 2.5rem;
   }
 
@@ -364,6 +377,10 @@ footer {
     height: 55px;
   }
 
+  .hero-banner {
+    gap: 32px;
+  }
+
   .hero-description {
     gap: 10px;
   }
@@ -374,6 +391,7 @@ footer {
   a {
     font-size: 2rem;
   }
+
   .hero-description > h2 {
     font-size: 2rem;
   }
@@ -399,11 +417,7 @@ footer {
   }
 
   .grid-image-container,
-  .grid-image-container img {
-    height: 95px;
-    width: 100%;
-  }
-
+  .grid-image-container img,
   .planets--container,
   .planets--container img {
     height: 95px;
@@ -413,8 +427,17 @@ footer {
   #work-header,
   #contact-header,
   #about-header {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    font-weight: 500;
     flex: 0 3 100px;
+  }
+
+  .about-content,
+  .work-content,
+  .contact-content {
+    border-left: 5px solid var(--primary-color2);
+    border-radius: 5px;
+    padding-left: 25px;
   }
 
   .heading {
@@ -433,7 +456,4 @@ footer {
   .contact-flex {
     gap: 5px;
   }
-}
-
-@media screen and (max-width: 450px) {
 }
