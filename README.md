@@ -91,7 +91,7 @@ I will aim to build future applications with mobile-first approach as data sugge
 
 ©️ Helena Gilja
 
-- Website - [Helena's Portfolio](https://cyberrie.github.io/helenagilja-portfolio/)
+- Website - [Helena - Web Developer](https://cyberrie.github.io/helenagilja-portfolio/)
 
 - GitHub - [cyberrie](https://github.com/cyberrie)
 
