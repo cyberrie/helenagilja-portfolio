@@ -280,6 +280,10 @@ a:hover {
   padding: 10px 0;
 }
 
+h4 {
+  text-align: center;
+}
+
 i {
   font-size: 3rem;
   cursor: pointer;
@@ -298,7 +302,7 @@ footer {
   height: 58px;
 }
 
-/* @media */
+/* @media tablets */
 
 @media screen and (max-width: 778px) {
   .workGrid {
@@ -318,7 +322,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 665px) {
   .donut {
     display: none;
   }
@@ -339,20 +343,38 @@ footer {
   #contact-header,
   #about-header {
     font-size: 2rem;
-    flex: 0 0 120px;
+    flex: 0 1 120px;
+  }
+
+  .heading {
+    font-size: 1.8rem;
+    padding: 10px;
+    height: 50px;
+  }
+
+  h4 {
+    text-align: center;
   }
 }
 
-@media screen and (max-width: 480px) {
+/* @media mobile phones */
+
+@media screen and (max-width: 485px) {
   .headerContainer {
     height: 55px;
   }
 
+  .hero-description {
+    gap: 10px;
+  }
   .hero-banner h1 {
     font-size: 4rem;
   }
 
-  .hero-description > h3 {
+  a {
+    font-size: 2rem;
+  }
+  .hero-description > h2 {
     font-size: 2rem;
   }
 
@@ -366,12 +388,52 @@ footer {
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  .workGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 100px);
+    gap: 20px;
+  }
+
+  .grid-image-container,
+  .grid-image-container img {
+    height: 95px;
+    width: 100%;
+  }
+
+  .planets--container,
+  .planets--container img {
+    height: 95px;
+    width: 100%;
   }
 
   #work-header,
   #contact-header,
   #about-header {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    flex: 0 3 100px;
   }
+
+  .heading {
+    font-size: 1.2rem;
+    padding: 8px;
+    height: 30px;
+  }
+
+  h4,
+  i,
+  .mail-link {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .contact-flex {
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 450px) {
 }
