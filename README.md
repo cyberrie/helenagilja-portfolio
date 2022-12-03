@@ -31,13 +31,13 @@ I was given some critical requirements neccessary to develop a portfolio that sa
 
 ## Portfolio Demo
 
-The following animation shows my portoflio page appearance:
+The following animation shows the web aplication's appearance:
 
-![portfolio demo](./images/portfolio-demo1.gif)
+![portfolio demo](./images/portfolio-demo3.gif)
 
 ## Links
 
-You will be able to see my portfolio page URL if you navigate into Settings → Pages inside this repository. Enjoy!
+You will be able to see my portfolio page URL if you navigate into Settings → Pages inside this repository.
 
 Or, click on this link: [Helena's Portfolio Page](https://cyberrie.github.io/challenge2-portfolio/)
 
@@ -47,7 +47,7 @@ I have started working on my portfolio page last week, so slightly ahead of the 
 
 I have used pen and paper to sketch my initial layout.
 
-For my main layout, I have decided to use flexbox and grid nested within portfolio section of my page. I now understand this can be built using grid layout fully, but I felt flexbox was more suitable for my desired design.
+For my main layout, I have decided to use flexbox and grid nested within portfolio section of my page. I now understand this can be built using grid layout fully, however as I have started slightly earlier, I felt more comfortable with flexbox.
 
 ## Built with...
 
@@ -72,6 +72,8 @@ In the end, I realised I have used width property on a wrong element, nested fle
 ```
 
 ## Continued development
+
+I will use Excalidraw to sketch my future projects as it is easy to use and it can be lie edited with the group if working on the same project.
 
 I will continue working on enhancing my skills in CSS grid and start using it more often in my application as it needs less code.
 
