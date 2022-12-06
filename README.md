@@ -39,7 +39,7 @@ The following animation shows the web aplication's appearance:
 
 You will be able to see my portfolio page URL if you navigate into Settings → Pages inside this repository.
 
-Or, click on this link: [Helena's Portfolio Page](https://cyberrie.github.io/challenge2-portfolio/)
+Or, click on this link: [Helena's Portfolio Page](https://cyberrie.github.io/helenagilja-portfolio/)
 
 ## My Process
 
