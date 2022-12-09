@@ -1,7 +1,7 @@
 ## Table of contents
 
 - [Overview](#overview)
-- [The challenge](#the-challenge)
+- [Acceptance Criteria](#acceptance-criteria)
 - [Portfolio Demo](#portfolio-demo)
 - [Links](#links)
 - [My process](#my-process)
@@ -14,11 +14,9 @@
 
 ## Overview
 
-This challenge was completed to consolidate this week's learnings (flexbox, CSS grid, media queries, and CSS variables) and create my portfolio page to showcase my skills and talents to potential employers.
+This project was completed to consolidate this week's learnings (flexbox, CSS grid, media queries, and CSS variables) and create my portfolio page to showcase my skills and talents to potential employers.
 
-I will build on this as I progress through my bootcamp course.
-
-## The Challenge
+## Acceptance Criteria
 
 I was given some critical requirements neccessary to develop a portfolio that satisfies a typical hiring manager’s needs:
 
@@ -59,7 +57,7 @@ For my main layout, I have decided to use flexbox and grid nested within portfol
 
 ## What I learned
 
-With this particular challenge, I have used flexbox nested within another flexbox container in my contact section.
+With this particular project, I have used flexbox nested within another flexbox container in my contact section.
 
 I was struggling to work out on how to make a nested flexbox take the full width in a flex item which was its container.
 
@@ -96,7 +94,5 @@ I will aim to build future applications with mobile-first approach as data sugge
 - GitHub - [cyberrie](https://github.com/cyberrie)
 
 ## Acknowledgments
-
-🌟 I would like to thank our bootcamp instructor Dane for this week's sessions and explaining flexbox and grid concepts really well.
 
 🌟 Special thanks to TAs Scott, Noah & Asha who helped me resolve some of the challenges during this project.
